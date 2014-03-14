@@ -1,0 +1,120 @@
+%______________________________________________________________________________________________________________________
+%  LaTeX2e Resume Template - Kamil K Wojcicki
+% @brief Will Laurance Resume
+\documentclass[margin,line]{resume}
+\usepackage{hyperref}
+\usepackage{ulem}
+\usepackage{multicol}
+\usepackage{datetime}
+\newdateformat{mydate}{\monthname[\THEMONTH] \THEDAY,  \THEYEAR}
+
+
+%______________________________________________________________________________________________________________________
+\begin{document}
+\name{\Huge Josh Finnie \large Application Developer}
+\begin{resume}
+
+    %__________________________________________________________________________________________________________________
+    % Contact Information
+    \section{\mysidestyle Contact\\Information\\\vspace{5pt}\rule{75pt}{20pt}}
+
+    3900 14th St NW						\hfill 860.716.5996          \vspace{0mm}\\
+    Unit 402							\hfill josh@jfin.us  \vspace{0mm}\\
+    Washington, DC, USA 20011                          	\hfill \href{www.joshfinnie.com}{www.joshfinnie.com}  \vspace{0mm}
+ 
+    
+    %__________________________________________________________________________________________________________________
+    % Skills
+    \section{\mysidestyle Skills\\\vspace{5pt}\rule{75pt}{20pt}}
+    \vspace{0mm} 
+    \begin{multicols}{2}
+    \textbf{Programming Languages: Frameworks} 
+    \begin{list2}
+    	\item Python: Django, Pyramid, Flask
+     	\item Javascript: Node.js, Angular.js, jQuery
+     	\item PHP: Wordpress, Drupal
+	\item Ruby: Rails, Sinatra
+    \end{list2}
+    \textbf{Web Programming \& Design}
+    \begin{list2}
+     	\item HTML, CSS, LESS, Jade, JSON
+    \end{list2}
+    \columnbreak
+     \textbf{Databases}
+      \begin{list2}
+        \item MongoDB, PostgreSQL, Redis, MySQL, ArcSDE
+      \end{list2}
+      \textbf{Other}
+      \begin{list2}
+      \item Git, SVN, Twitter Bootstrap, AWS, \LaTeX
+      \end{list2}
+    \end{multicols}
+
+    %__________________________________________________________________________________________________________________
+    % Professional Experience
+    \section{\mysidestyle Professional\\Experience\\\vspace{5pt}\rule{75pt}{20pt}}
+
+    \textbf{Software Developer IV}, \textsl{Koansys, LLC in support of DMI, Inc.}\\December 2012 - Present\vspace{2mm}\\\vspace{1mm}%
+    Developing the Interactive Satellite Tracker (iSat) for Science@NASA. (\href{http://science.nasa.gov/iSat/}{http://science.nasa.gov/iSat/}), which is an application written in Javascript. 
+    
+    Was Integral in deploying the application to production and continue to add enhancements to best serve our customer’s needs and the needs of the public. 
+    
+    Working on the migration of Science@NASA’s Content Management System (CMS) to Amazon Web Services (AWS). Helping with the design of the cloud infrastructure, and building automated scripts for deployment using Ansible. Also converting the current CMS from Django to Drupal.
+    
+    \textbf{skills:} Javascript, 508 Compliance, UX Design, HTML, CSS, Django, Drupal, Amazon Web Services (EC2, S3, RDS), Ansible
+
+    \textbf{Front-end Developer}, \textsl{Koansys, LLC in support of Zerowait Corporation}\\December 2013 - March 2013\vspace{2mm}\\\vspace{1mm}%
+    Developed a front-end web application written in Angular.js to allow the customer to interact with a custom-build Python API written using the Pyramid Framework. Assisted in integrating the entire application onto a FreeBSD box for customer testing.
+    
+    \textbf{skills:} Javascript, Angular.js, Python, jQuery, HTML, CSS, MongoDB, FreeBSD
+    
+    \textbf{System Architect}, \textsl{Koansys, LLC in support of IndyPublish}\\August 2012 - October 2012\vspace{2mm}\\\vspace{1mm}%
+    Migrated an existing web application written in ASP.net using an Oracle database to AWS. Rewrote application using Django and MySQL and ensured it was multi-zone redundant allowing for minimal downtime.
+    
+    \textbf{skills:} Django, MySQL, Amazon Web Services (EC2, S3, RDS), ASP.net, OracleDB
+    
+    \textbf{Application Developer}, \textsl{Koansys, LLC in support of CROI, LLC}\\February 2012 - November 2013\vspace{2mm}\\\vspace{1mm}%
+    Maintained and enhanced CROI’s web application by building a custom administration interface to ease customer's workload. Kept application and MongoDB versions up-to-date. Moved web application to AWS for CROI 2013 to support extra hits and database load. Sent out mass-mailing emails to CROI constituents.
+    
+    \textbf{skills:} Pyramid, MongoDB, SMTP, Amazon Web Services (EC2, EBS)
+    
+    \pagebreak
+     
+    %__________________________________________________________________________________________________________________
+    % Education
+    \section{\mysidestyle Education\\\vspace{5pt}\rule{75pt}{20pt}}
+
+    \textbf{Certificates of Continuing Education}, \textsl{MongoDB University}\\
+    M101P: MongoDB for Developers, M102: MongoDB for DBAs\vspace{-3mm} 
+
+    \textbf{Masters of Science (expected)}, \textsl{Central Connecticut State University}\\
+    Geography (Focus on Internet GIS)\vspace{-3mm} 
+    
+    \textbf{Bachelors of Art}, \textsl{University of Connecticut}\\
+    Economics
+
+    %______________________________________________________________________________________________________________________
+    % Projects
+    \section{\mysidestyle Projects\\\vspace{5pt}\rule{75pt}{20pt}}
+    \textbf{BeerLedge}, \textsl{\href{https://www.beerledge.com}{https://www.beerledge.com}}\\
+    A web application that lets users track beers that they have drank allowing for notes and geotagging. The application is built in Python originally using the Flask micro-framework and MySQL and has been refactored to use Django 1.6 and PostgreSQL while being self-hosted on Digital Ocean.
+    
+    \textbf{TweetPNG}, \textsl{\href{http://www.tweetpng.com}{http://www.tweetpng.com}}\\
+    A web application and API that allows users to retrieve a PNG of a tweet. The url is static but dynamically retrieves the users’s latest tweet each time it is called. Built using Node.js and is self-hosted on Digital Ocean.
+        
+    \textbf{PushFile}, \textsl{\href{https://github.com/joshfinnie/pushfile}{https://github.com/joshfinnie/pushfile}}\\
+    A command-line application written in Node.js which allows you to push a file to S3 and gives you an URL in return.
+        
+    \textbf{How Old is this Metro Car}, \textsl{\href{http://www.howoldisthismetrocar.com}{http://www.howoldisthismetrocar.com}}\\
+    A web application that allows users to check the age of a Washington Metro Area Transit Authority’s cars. Built using Angular.js and hosted exclusively on AWS S3. The application is a proof-of-concept of a single-page web application written in Javascript and hosted on a static server provider.
+
+      \hfill Last update: \mydate\today
+
+%______________________________________________________________________________________________________________________
+\end{resume}
+\end{document}
+
+
+%______________________________________________________________________________________________________________________
+% EOF
+
