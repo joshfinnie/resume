@@ -2,5 +2,5 @@
 
 This is the resume of Josh Finnie. Written in Latex.
 
-Run `pdflatex resume.txt` to create a PDF version.
+Run `pdflatex resume.tex` to create a PDF version.
 
