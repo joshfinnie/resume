@@ -102,43 +102,43 @@
                     "team": "DEEP Visualization",
                     "dates": "2/2013 - Present",
                     "tools": "Open Calais, SOLR, Javascript, Synapse 3.2, DEEP, GVF, Twitter Storm",
-                    "breif": "Utilizing the DEEP client side framework that ingests Twitter Strom data into a locally hosted and configured SOLR instance to pull out OpenCalais metadata which is mapped into a Synapse CDM mapper and inserted into the Synapse framework to be used with OWF Synapse enabled widgets.  Working closely with the GVF team to generate graphical representations of the twitter storm data to help visualize trends and relationships."
+                    "brief": "Utilizing the DEEP client side framework that ingests Twitter Strom data into a locally hosted and configured SOLR instance to pull out OpenCalais metadata which is mapped into a Synapse CDM mapper and inserted into the Synapse framework to be used with OWF Synapse enabled widgets.  Working closely with the GVF team to generate graphical representations of the twitter storm data to help visualize trends and relationships."
                 },
                 {
                     "team": "Aucto-Re",
                     "dates": "10/2012 - 2/2013",
                     "tools": "Android, Javascript, HTML5, CSS",
-                    "breif": "Contributed on a small team to provide many small features and functionality in an augmented reality (virtual models, facial detection, targeting and targets) by with streaming video and metadata information from a mobile device to a remote browser.  Utilized many of the native tools available on the mobile device (compass, gps, accelerometer, heading, and camera) to help generate and automate logic and calculations."
+                    "brief": "Contributed on a small team to provide many small features and functionality in an augmented reality (virtual models, facial detection, targeting and targets) by with streaming video and metadata information from a mobile device to a remote browser.  Utilized many of the native tools available on the mobile device (compass, gps, accelerometer, heading, and camera) to help generate and automate logic and calculations."
                 },
                 {
                     "team": "Business Development",
                     "dates": "10/2012 - 12/2012",
                     "tools": "Google Earth, Google Maps, Wijimo, Javascript, HTML5, CSS",
-                    "breif": "Worked closely with a team of engineers and business developers on very short deadlines to produce technical prototypes and demo's that simulated mission critical solutions.  Designed and developed numerous client side widgets to reenact a mission and how technology could be utilized to generate visualizations based on specific logic and trends to be rendered in real time."
+                    "brief": "Worked closely with a team of engineers and business developers on very short deadlines to produce technical prototypes and demo's that simulated mission critical solutions.  Designed and developed numerous client side widgets to reenact a mission and how technology could be utilized to generate visualizations based on specific logic and trends to be rendered in real time."
                 },
                 {
                     "team": "Synapse Core",
                     "dates": "8/2012 - 10/2012",
                     "tools": "Google Closure, JAVA, Javascript, HTML",
-                    "breif": "Developed integration and unit tests to help identify bugs in a rapidly evolving framework.  Helped migrate code from JAVA to Javascript to build out the client side framework.  Wrote convenience functions to enable widget developers to preform CRUD operations on the synapse framework easier."
+                    "brief": "Developed integration and unit tests to help identify bugs in a rapidly evolving framework.  Helped migrate code from JAVA to Javascript to build out the client side framework.  Wrote convenience functions to enable widget developers to preform CRUD operations on the synapse framework easier."
                 },
                 {
                     "team": "Graph Visualization Framework",
                     "dates": "4/2011 - 7/2011",
                     "tools": "Cytoscape, Neo4J, ExtJS, JAVA, XML",
-                    "breif": "Contributed part time on this startup effort on a graph visualization widget to display big data stored in a Neo4J database on the Cytoscape platform.  Used ExtJs to create panels to display metadata information along with being able to manipulate or filter the display."
+                    "brief": "Contributed part time on this startup effort on a graph visualization widget to display big data stored in a Neo4J database on the Cytoscape platform.  Used ExtJs to create panels to display metadata information along with being able to manipulate or filter the display."
                 },
                 {
                     "team": "OWF Touch",
                     "dates": "2/2011 - 8/2012",
                     "tools": "jQuery Mobile, Android, iOS, Javascript, HTML5, CSS, PMRPC",
-                    "breif": "Contributed on a small agile team to develop a framework and the GUI for Synapse/Ozone widgets to interact with tablets, phones, and large format touch displays.  Worked with calculating multi touch gestures and engineered a PUB/SUB messaging interface for widget to widget and widget to framework communication."
+                    "brief": "Contributed on a small agile team to develop a framework and the GUI for Synapse/Ozone widgets to interact with tablets, phones, and large format touch displays.  Worked with calculating multi touch gestures and engineered a PUB/SUB messaging interface for widget to widget and widget to framework communication."
                 },
                 {
                     "team": "Synapse 2.0",
                     "dates": "11/2010 - 2/2011",
                     "tools": "JAVA, Javascript, HTML5, CSS, Log4J, jQuery, ExtJS",
-                    "breif": "Worked on a small agile team and maintained Synapse 2.0 widgets.  SES Enabled many of the client side only widgets and provided SES support as well."
+                    "brief": "Worked on a small agile team and maintained Synapse 2.0 widgets.  SES Enabled many of the client side only widgets and provided SES support as well."
                 }
             ]
         },
@@ -157,19 +157,19 @@
                     "team": "Rotation 3 - Compliance",
                     "dates": "2/2010 - 11/2010",
                     "tools": "PlumTree Portal, JSF, Javascript, HTML5, CSS, jQuery, JAVA",
-                    "breif": "Developed a new portlet in the existing PlumTree Portal with JSF that would display search results from customized stored procedures integrated from several databases.  Integrated the new portlet with several other existing portlets for maximum cohesion in the dashboard.  Upon early and successful completion of the first task I was tasked to develop a second JSF application to display the Bill of Material information on specific Parts and all of it's related components.  Developed a custom hierarchal treetable plugin with jQuery, built in session control for user saved preferences based on role and access, and utilized JAVA's POI class to process an offline batch of results greater than 500 rows that would be sent to an email queue to be sent off to the logged in user when the report was ready."
+                    "brief": "Developed a new portlet in the existing PlumTree Portal with JSF that would display search results from customized stored procedures integrated from several databases.  Integrated the new portlet with several other existing portlets for maximum cohesion in the dashboard.  Upon early and successful completion of the first task I was tasked to develop a second JSF application to display the Bill of Material information on specific Parts and all of it's related components.  Developed a custom hierarchal treetable plugin with jQuery, built in session control for user saved preferences based on role and access, and utilized JAVA's POI class to process an offline batch of results greater than 500 rows that would be sent to an email queue to be sent off to the logged in user when the report was ready."
                 },
                 {
                     "team": "Rotation 2 - Document Management Technologies",
                     "dates": "8/2009 - 1/2010",
                     "tools": "Apache Struts, Javascript, HTML5, CSS, jQuery, datatables",
-                    "breif": "Generated the business requirements document, functional design document, technical design document, and use cases necessary to replace a legacy application to manage relationships of items in a parts database to the items in the documents database.  Provided mockups and proof of concepts upon acceptance of each stage and lastly developed the final application in Struts with use of jQuery and DataTables to render the visualization in the Product Lifecycle Management Portal.  Provided the ability to view existing relationships, create new relationships between the various parts and documents, delete and modify existing relationships.  Had built in validation, roll back/recovery, verification screens, and automated reporting for business and system administrators."
+                    "brief": "Generated the business requirements document, functional design document, technical design document, and use cases necessary to replace a legacy application to manage relationships of items in a parts database to the items in the documents database.  Provided mockups and proof of concepts upon acceptance of each stage and lastly developed the final application in Struts with use of jQuery and DataTables to render the visualization in the Product Lifecycle Management Portal.  Provided the ability to view existing relationships, create new relationships between the various parts and documents, delete and modify existing relationships.  Had built in validation, roll back/recovery, verification screens, and automated reporting for business and system administrators."
                 },
                 {
                     "team": "Rotation 1 - Core Technical Services",
                     "dates": "5/2009 - 8/2009",
                     "tools": "Borne Shell Script, Javascript, HTML5, CSS, JSF",
-                    "breif": "Generated the business requirements document, function design document and use cases necessary to successfully developed a shell scrip that maintained the log files generated by all of the application servers in each of the different zones and environments owned by the Global Engineering Systems team.  Upon early completion and acceptance of task I created a JSF application to read master log files generated on each server to notify designated administrators of irregular activities or warnings identified by the log files."
+                    "brief": "Generated the business requirements document, function design document and use cases necessary to successfully developed a shell scrip that maintained the log files generated by all of the application servers in each of the different zones and environments owned by the Global Engineering Systems team.  Upon early completion and acceptance of task I created a JSF application to read master log files generated on each server to notify designated administrators of irregular activities or warnings identified by the log files."
                 }
             ]
         },
@@ -188,13 +188,13 @@
                     "team": "SOA Governance Team",
                     "dates": "8/2008-5/2009",
                     "tools": "OAGIS BODs, Javascript, HTML5, CSS",
-                    "breif": "Worked on mapping all of the databases to an OAGIS BOD and documented the BODs in XML.  Implemented HP's Systinet with USSteel's SOA standards and helped setup software to monitor these services and applications."
+                    "brief": "Worked on mapping all of the databases to an OAGIS BOD and documented the BODs in XML.  Implemented HP's Systinet with USSteel's SOA standards and helped setup software to monitor these services and applications."
                 },
                 {
                     "team": "Architecture Team",
                     "dates": "5/2007-5/2009",
                     "tools": "JAVA, AJAX, SQL, JavaBeans, JSTL, JSP, XML, C#, .NET, WebSphere, ClearCase, Oracle, RAD7, Javascript, HTML5, CSS",
-                    "breif": "Maintained existing java applications and helped build functionality for a new security access framework.  Manually maintained several databases with specific requests and helped develop froms to help automate redundant tasks to update databases."
+                    "brief": "Maintained existing java applications and helped build functionality for a new security access framework.  Manually maintained several databases with specific requests and helped develop froms to help automate redundant tasks to update databases."
                 }
             ]
         },
@@ -213,7 +213,7 @@
                     "team": "Lead Researcher",
                     "dates": "9/2006 - 12/2008",
                     "tools": "MAYA, Adobe Master Collection CS3, AVID",
-                    "breif": "Built a 3D model of a nuclear power plant and created an interactive serious game that simulated a tour through the power plant with the Unreal game engine"
+                    "brief": "Built a 3D model of a nuclear power plant and created an interactive serious game that simulated a tour through the power plant with the Unreal game engine"
                 }
             ]
         }
@@ -260,13 +260,13 @@
             {
                 "category": "video editing",
                 "years": 7,
-                "breif": "I enjoyed photography so much, I went into video editing and production, I did a number of small projects with weddings, commercial advertisements, and fundraising videos.",
+                "brief": "I enjoyed photography so much, I went into video editing and production, I did a number of small projects with weddings, commercial advertisements, and fundraising videos.",
                 "software": "Adobe After Effect, Adobe Premiere, Final Cut Pro, Avid Media Composer"
             },
             {
                 "category": "photography",
                 "years": 9,
-                "breif": "I enjoyed the art of photography and wanted to tell a story by showing the world what I saw through my SLR cameras",
+                "brief": "I enjoyed the art of photography and wanted to tell a story by showing the world what I saw through my SLR cameras",
                 "tools": [
                     "Canon EOS ti300",
                     "Canon EOS 20d",
@@ -278,7 +278,7 @@
             {
                 "category": "audio editing",
                 "years": 7,
-                "breif": "I was an event dj and provided custom mixes and audio recording to low budget artists building demo reels"
+                "brief": "I was an event dj and provided custom mixes and audio recording to low budget artists building demo reels"
             }
         ],
         "misc": "other hobbies include the passion to fly, stamp collecting, coin collecting, carpentry, traveling, motorcycling and road biking."
