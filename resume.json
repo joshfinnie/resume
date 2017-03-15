@@ -288,17 +288,17 @@
             "name" : "Eli Fajardo",
             "number" : 7039270480,
             "company": "Sotera Defense Solutions",
-            "title": Team Lead
+            "title": "Team Lead"
         }, {
             "name" : "Justin Grant",
             "number" : 2489747998,
             "company": "Sotera Defense Solutions",
-            "title": Senior Software Developer
+            "title": "Senior Software Developer"
         }, {
             "name" : "Rick Sutcliffe",
-            "number" : 9788705989, ,
+            "number" : 9788705989,
             "company": "Sotera Defense Solutions",
-            "title": Senior Software Developer
+            "title": "Senior Software Developer"
         }
     ]
 }
